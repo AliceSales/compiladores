@@ -18,7 +18,7 @@ def rpn_calculator(expression):
             stack.append(result)
     return stack.pop()
 
-with open('Calc1.stk', 'r') as file:
+with open('atividade1\Calc1.stk', 'r') as file:
     expression = file.read()
 result = rpn_calculator(expression)
 print(result)
